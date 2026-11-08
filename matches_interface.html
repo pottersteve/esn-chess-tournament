@@ -1,0 +1,690 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Tournament Matches</title>
+        <style>
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; }
+            h1 { text-align: center; color: #2c3e50; }
+            .container { max-width: 1000px; margin: auto; }
+            .round-card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+            .round-title { font-size: 1.5em; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 20px; color: #2980b9; }
+            table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+            th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
+            th { background-color: #f8f9fa; color: #555; }
+            tr:hover { background-color: #f1f1f1; }
+            .sitting-out { background-color: #fff3cd; color: #856404; padding: 15px; border-radius: 5px; font-weight: bold; }
+            .vs { color: #e74c3c; font-weight: bold; font-size: 0.9em; padding: 0 10px; }
+            .summary { background: #2c3e50; color: white; padding: 20px; border-radius: 8px; }
+            .summary h2 { border-bottom: 1px solid #576574; padding-bottom: 10px; margin-top: 0; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Tournament Matches</h1>
+    
+            <div class="round-card">
+                <div class="round-title">Round 1</div>
+                <table>
+                    <tr><th>Table</th><th>Player 1</th><th></th><th>Player 2</th></tr>
+        
+                    <tr>
+                        <td><strong>Table 1</strong></td>
+                        <td>Kristoforo Burnell <small>(1980)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Quintilla Hourston <small>(2000)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 2</strong></td>
+                        <td>Ganny Crampsy <small>(630)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Ettie Ruoff <small>(660)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 3</strong></td>
+                        <td>Banky Falla <small>(520)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Alberik Jacques <small>(410)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 4</strong></td>
+                        <td>Nanon FitzGilbert <small>(1650)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Jaye Gribbon <small>(1700)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 5</strong></td>
+                        <td>Shari Adrienne <small>(740)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Harcourt Zoanetti <small>(700)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 6</strong></td>
+                        <td>﻿Frances Gullefant <small>(600)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Early Andrassy <small>(550)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 7</strong></td>
+                        <td>Tris Bent <small>(1000)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Elbertina Hewins <small>(1200)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 8</strong></td>
+                        <td>Tricia Kinnie <small>(1870)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Sibylla Kemet <small>(1900)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 9</strong></td>
+                        <td>Lillis Dewhurst <small>(1210)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Garland Chuney <small>(1300)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 10</strong></td>
+                        <td>Sephira Philippart <small>(880)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Charo Aisbett <small>(850)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 11</strong></td>
+                        <td>Abigale Morgan <small>(1430)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Delmor McKleod <small>(1500)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 12</strong></td>
+                        <td>Zora Keelin <small>(1100)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Kassie Elman <small>(1100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 13</strong></td>
+                        <td>Charles Sandison <small>(990)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Rafe Duffitt <small>(900)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 14</strong></td>
+                        <td>Bogey McReath <small>(770)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Washington Oxteby <small>(800)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 15</strong></td>
+                        <td>Dulsea Pendry <small>(2090)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Maggi Simpson <small>(2100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 16</strong></td>
+                        <td>Luz Gudgeon <small>(1320)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Caroljean Bischop <small>(1400)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 17</strong></td>
+                        <td>Ginelle Olver <small>(1760)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Brodie Dobrowski <small>(1800)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 18</strong></td>
+                        <td>Minette Muzzillo <small>(1540)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Julee O'Gavin <small>(1600)</small></td>
+                    </tr>
+            </table></div>
+            <div class="round-card">
+                <div class="round-title">Round 2</div>
+                <table>
+                    <tr><th>Table</th><th>Player 1</th><th></th><th>Player 2</th></tr>
+        
+                    <tr>
+                        <td><strong>Table 1</strong></td>
+                        <td>Abigale Morgan <small>(1430)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Caroljean Bischop <small>(1400)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 2</strong></td>
+                        <td>Quintilla Hourston <small>(2000)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Dulsea Pendry <small>(2090)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 3</strong></td>
+                        <td>Harcourt Zoanetti <small>(700)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Washington Oxteby <small>(800)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 4</strong></td>
+                        <td>Kristoforo Burnell <small>(1980)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Maggi Simpson <small>(2100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 5</strong></td>
+                        <td>Luz Gudgeon <small>(1320)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Delmor McKleod <small>(1500)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 6</strong></td>
+                        <td>Nanon FitzGilbert <small>(1650)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Julee O'Gavin <small>(1600)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 7</strong></td>
+                        <td>Tris Bent <small>(1000)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Zora Keelin <small>(1100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 8</strong></td>
+                        <td>Rafe Duffitt <small>(900)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Sephira Philippart <small>(880)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 9</strong></td>
+                        <td>Charles Sandison <small>(990)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Charo Aisbett <small>(850)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 10</strong></td>
+                        <td>Ganny Crampsy <small>(630)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Alberik Jacques <small>(410)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 11</strong></td>
+                        <td>Shari Adrienne <small>(740)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Bogey McReath <small>(770)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 12</strong></td>
+                        <td>Banky Falla <small>(520)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Early Andrassy <small>(550)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 13</strong></td>
+                        <td>Lillis Dewhurst <small>(1210)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Elbertina Hewins <small>(1200)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 14</strong></td>
+                        <td>Minette Muzzillo <small>(1540)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Jaye Gribbon <small>(1700)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 15</strong></td>
+                        <td>Ginelle Olver <small>(1760)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Sibylla Kemet <small>(1900)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 16</strong></td>
+                        <td>Garland Chuney <small>(1300)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Kassie Elman <small>(1100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 17</strong></td>
+                        <td>Brodie Dobrowski <small>(1800)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Tricia Kinnie <small>(1870)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 18</strong></td>
+                        <td>﻿Frances Gullefant <small>(600)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Ettie Ruoff <small>(660)</small></td>
+                    </tr>
+            </table></div>
+            <div class="round-card">
+                <div class="round-title">Round 3</div>
+                <table>
+                    <tr><th>Table</th><th>Player 1</th><th></th><th>Player 2</th></tr>
+        
+                    <tr>
+                        <td><strong>Table 1</strong></td>
+                        <td>Minette Muzzillo <small>(1540)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Nanon FitzGilbert <small>(1650)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 2</strong></td>
+                        <td>Harcourt Zoanetti <small>(700)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Bogey McReath <small>(770)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 3</strong></td>
+                        <td>Jaye Gribbon <small>(1700)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Julee O'Gavin <small>(1600)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 4</strong></td>
+                        <td>Maggi Simpson <small>(2100)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Quintilla Hourston <small>(2000)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 5</strong></td>
+                        <td>Zora Keelin <small>(1100)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Lillis Dewhurst <small>(1210)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 6</strong></td>
+                        <td>Ettie Ruoff <small>(660)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Banky Falla <small>(520)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 7</strong></td>
+                        <td>Washington Oxteby <small>(800)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Shari Adrienne <small>(740)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 8</strong></td>
+                        <td>Charo Aisbett <small>(850)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Rafe Duffitt <small>(900)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 9</strong></td>
+                        <td>Tris Bent <small>(1000)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Kassie Elman <small>(1100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 10</strong></td>
+                        <td>Garland Chuney <small>(1300)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Elbertina Hewins <small>(1200)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 11</strong></td>
+                        <td>Charles Sandison <small>(990)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Sephira Philippart <small>(880)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 12</strong></td>
+                        <td>Delmor McKleod <small>(1500)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Caroljean Bischop <small>(1400)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 13</strong></td>
+                        <td>Sibylla Kemet <small>(1900)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Brodie Dobrowski <small>(1800)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 14</strong></td>
+                        <td>Early Andrassy <small>(550)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Alberik Jacques <small>(410)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 15</strong></td>
+                        <td>Luz Gudgeon <small>(1320)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Abigale Morgan <small>(1430)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 16</strong></td>
+                        <td>Ginelle Olver <small>(1760)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Tricia Kinnie <small>(1870)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 17</strong></td>
+                        <td>﻿Frances Gullefant <small>(600)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Ganny Crampsy <small>(630)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 18</strong></td>
+                        <td>Kristoforo Burnell <small>(1980)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Dulsea Pendry <small>(2090)</small></td>
+                    </tr>
+            </table></div>
+            <div class="round-card">
+                <div class="round-title">Round 4</div>
+                <table>
+                    <tr><th>Table</th><th>Player 1</th><th></th><th>Player 2</th></tr>
+        
+                    <tr>
+                        <td><strong>Table 1</strong></td>
+                        <td>Lillis Dewhurst <small>(1210)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Caroljean Bischop <small>(1400)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 2</strong></td>
+                        <td>Garland Chuney <small>(1300)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Luz Gudgeon <small>(1320)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 3</strong></td>
+                        <td>Elbertina Hewins <small>(1200)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Zora Keelin <small>(1100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 4</strong></td>
+                        <td>Minette Muzzillo <small>(1540)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Delmor McKleod <small>(1500)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 5</strong></td>
+                        <td>Ganny Crampsy <small>(630)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Early Andrassy <small>(550)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 6</strong></td>
+                        <td>Julee O'Gavin <small>(1600)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Abigale Morgan <small>(1430)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 7</strong></td>
+                        <td>﻿Frances Gullefant <small>(600)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Banky Falla <small>(520)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 8</strong></td>
+                        <td>Washington Oxteby <small>(800)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Charo Aisbett <small>(850)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 9</strong></td>
+                        <td>Kristoforo Burnell <small>(1980)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Sibylla Kemet <small>(1900)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 10</strong></td>
+                        <td>Harcourt Zoanetti <small>(700)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Ettie Ruoff <small>(660)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 11</strong></td>
+                        <td>Shari Adrienne <small>(740)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Alberik Jacques <small>(410)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 12</strong></td>
+                        <td>Ginelle Olver <small>(1760)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Nanon FitzGilbert <small>(1650)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 13</strong></td>
+                        <td>Brodie Dobrowski <small>(1800)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Maggi Simpson <small>(2100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 14</strong></td>
+                        <td>Kassie Elman <small>(1100)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Rafe Duffitt <small>(900)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 15</strong></td>
+                        <td>Sephira Philippart <small>(880)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Bogey McReath <small>(770)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 16</strong></td>
+                        <td>Jaye Gribbon <small>(1700)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Quintilla Hourston <small>(2000)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 17</strong></td>
+                        <td>Tricia Kinnie <small>(1870)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Dulsea Pendry <small>(2090)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 18</strong></td>
+                        <td>Tris Bent <small>(1000)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Charles Sandison <small>(990)</small></td>
+                    </tr>
+            </table></div>
+            <div class="round-card">
+                <div class="round-title">Round 5</div>
+                <table>
+                    <tr><th>Table</th><th>Player 1</th><th></th><th>Player 2</th></tr>
+        
+                    <tr>
+                        <td><strong>Table 1</strong></td>
+                        <td>Shari Adrienne <small>(740)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Ettie Ruoff <small>(660)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 2</strong></td>
+                        <td>Rafe Duffitt <small>(900)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Tris Bent <small>(1000)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 3</strong></td>
+                        <td>Elbertina Hewins <small>(1200)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Kassie Elman <small>(1100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 4</strong></td>
+                        <td>Caroljean Bischop <small>(1400)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Garland Chuney <small>(1300)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 5</strong></td>
+                        <td>Harcourt Zoanetti <small>(700)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Early Andrassy <small>(550)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 6</strong></td>
+                        <td>Brodie Dobrowski <small>(1800)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Dulsea Pendry <small>(2090)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 7</strong></td>
+                        <td>Ganny Crampsy <small>(630)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Banky Falla <small>(520)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 8</strong></td>
+                        <td>Nanon FitzGilbert <small>(1650)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Maggi Simpson <small>(2100)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 9</strong></td>
+                        <td>Washington Oxteby <small>(800)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Sephira Philippart <small>(880)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 10</strong></td>
+                        <td>Quintilla Hourston <small>(2000)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Sibylla Kemet <small>(1900)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 11</strong></td>
+                        <td>Luz Gudgeon <small>(1320)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Lillis Dewhurst <small>(1210)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 12</strong></td>
+                        <td>Minette Muzzillo <small>(1540)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Abigale Morgan <small>(1430)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 13</strong></td>
+                        <td>Kristoforo Burnell <small>(1980)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Tricia Kinnie <small>(1870)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 14</strong></td>
+                        <td>﻿Frances Gullefant <small>(600)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Alberik Jacques <small>(410)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 15</strong></td>
+                        <td>Charo Aisbett <small>(850)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Bogey McReath <small>(770)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 16</strong></td>
+                        <td>Julee O'Gavin <small>(1600)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Delmor McKleod <small>(1500)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 17</strong></td>
+                        <td>Jaye Gribbon <small>(1700)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Ginelle Olver <small>(1760)</small></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Table 18</strong></td>
+                        <td>Charles Sandison <small>(990)</small></td>
+                        <td class="vs">VS</td>
+                        <td>Zora Keelin <small>(1100)</small></td>
+                    </tr>
+            </table></div>
+            <div class="summary">
+                <h2>Tournament Summary</h2>
+                <ul>
+    <li><strong>Maggi Simpson</strong>: Played 5 matches</li><li><strong>Dulsea Pendry</strong>: Played 5 matches</li><li><strong>Quintilla Hourston</strong>: Played 5 matches</li><li><strong>Kristoforo Burnell</strong>: Played 5 matches</li><li><strong>Sibylla Kemet</strong>: Played 5 matches</li><li><strong>Tricia Kinnie</strong>: Played 5 matches</li><li><strong>Brodie Dobrowski</strong>: Played 5 matches</li><li><strong>Ginelle Olver</strong>: Played 5 matches</li><li><strong>Jaye Gribbon</strong>: Played 5 matches</li><li><strong>Nanon FitzGilbert</strong>: Played 5 matches</li><li><strong>Julee O'Gavin</strong>: Played 5 matches</li><li><strong>Minette Muzzillo</strong>: Played 5 matches</li><li><strong>Delmor McKleod</strong>: Played 5 matches</li><li><strong>Abigale Morgan</strong>: Played 5 matches</li><li><strong>Caroljean Bischop</strong>: Played 5 matches</li><li><strong>Luz Gudgeon</strong>: Played 5 matches</li><li><strong>Garland Chuney</strong>: Played 5 matches</li><li><strong>Lillis Dewhurst</strong>: Played 5 matches</li><li><strong>Elbertina Hewins</strong>: Played 5 matches</li><li><strong>Kassie Elman</strong>: Played 5 matches</li><li><strong>Zora Keelin</strong>: Played 5 matches</li><li><strong>Tris Bent</strong>: Played 5 matches</li><li><strong>Charles Sandison</strong>: Played 5 matches</li><li><strong>Rafe Duffitt</strong>: Played 5 matches</li><li><strong>Sephira Philippart</strong>: Played 5 matches</li><li><strong>Charo Aisbett</strong>: Played 5 matches</li><li><strong>Washington Oxteby</strong>: Played 5 matches</li><li><strong>Bogey McReath</strong>: Played 5 matches</li><li><strong>Shari Adrienne</strong>: Played 5 matches</li><li><strong>Harcourt Zoanetti</strong>: Played 5 matches</li><li><strong>Ettie Ruoff</strong>: Played 5 matches</li><li><strong>Ganny Crampsy</strong>: Played 5 matches</li><li><strong>﻿Frances Gullefant</strong>: Played 5 matches</li><li><strong>Early Andrassy</strong>: Played 5 matches</li><li><strong>Banky Falla</strong>: Played 5 matches</li><li><strong>Alberik Jacques</strong>: Played 5 matches</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    </html>
+    
