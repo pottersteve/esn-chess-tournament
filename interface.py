@@ -7,10 +7,11 @@ import tracker
 def load_data():
     participants_all = []
     elos = []
-    with open('participants.csv', mode='r', encoding='utf-8') as file:
+    with open('participants.csv', mode='r', encoding='utf-8-sig') as file:
         reader = csv.reader(file)
         for row in reader:
-            if len(row) >= 2:
+            # Only process rows that have 2 columns AND actually contain text
+            if len(row) >= 2 and row[0].strip() != "" and row[1].strip() != "":
                 participants_all.append(row[0].strip())
                 elos.append(int(row[1].strip()))
     return participants_all, elos
@@ -151,11 +152,11 @@ class TournamentApp:
 
 def launch_app():
     # --- CONFIGURABLE TOURNAMENT VARIABLES ---
-    MATCHES_STAGE_1 = 5
-    TABLES = 18
+    MATCHES_STAGE_1 = 6
+    TABLES = 13
     
     # 0.5 = Top 50% advance. If you change this to an integer (e.g. 8), the top 8 players advance.
-    CUTOFF = 0.5 
+    CUTOFF = 0.5
     
     MATCHES_STAGE_2 = 3
     # -----------------------------------------
