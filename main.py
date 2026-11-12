@@ -31,8 +31,11 @@ def generate_schedule(participants, ratings, matches, tables):
                 # Strict no-rematch rule per stage
                 if p2["id"] not in p1["played"]:
                     # Match players with similar ratings (Elos in Stage 1, Points in Stage 2)
-                    rating_score = 10000 - abs(p1["rating"] - p2["rating"])
-                    games_played_penalty = (len(p1["played"]) + len(p2["played"])) * 100000
+                    # Square the rating difference to heavily penalize massive skill gaps
+                    rating_score = 10000000 - ((p1["rating"] - p2["rating"]) ** 2)
+
+                    # Increase the game penalty to match the new scale (100 million)
+                    games_played_penalty = (len(p1["played"]) + len(p2["played"])) * 100000000
                     weight = rating_score - games_played_penalty
                     G.add_edge(p1["id"], p2["id"], weight=weight)
                     
