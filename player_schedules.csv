@@ -1,0 +1,183 @@
+﻿Player,Round,Table,Piece Color,Opponent
+Alessio Pagnoncelli,1,4,White,Margherita Maggio
+Alessio Pagnoncelli,2,9,White,Edoardo Giraudo
+Alessio Pagnoncelli,3,5,Black,Stefan Sivovol
+Alessio Pagnoncelli,4,6,Black,Andrei Diaconeasa
+Alessio Pagnoncelli,5,5,Black,Antonio Oliva
+Alessio Pagnoncelli,6,1,White,Paul Mandard
+
+Andrea Laisa,1,7,Black,Matus Slabej
+Andrea Laisa,2,1,Black,Simone Petitti
+Andrea Laisa,3,13,Black,Gábor Hegedűs
+Andrea Laisa,4,4,Black,Kalle Laukkanen
+Andrea Laisa,5,3,Black,Linus Fiedler
+Andrea Laisa,6,12,White,Miron Afrosin
+
+Andrei Diaconeasa,1,12,White,Linus Fiedler
+Andrei Diaconeasa,2,10,White,Antonio Oliva
+Andrei Diaconeasa,3,4,White,Paul Mandard
+Andrei Diaconeasa,4,6,White,Alessio Pagnoncelli
+Andrei Diaconeasa,5,10,Black,Edoardo Giraudo
+Andrei Diaconeasa,6,6,White,Margherita Maggio
+
+Antonio Oliva,1,10,Black,Paul Mandard
+Antonio Oliva,2,10,Black,Andrei Diaconeasa
+Antonio Oliva,3,1,Black,Esteban Carrasquilla Grisales
+Antonio Oliva,4,5,White,Margherita Maggio
+Antonio Oliva,5,5,White,Alessio Pagnoncelli
+Antonio Oliva,6,10,White,Edoardo Giraudo
+
+Arvo Vilkko,1,13,Black,Vlad Protassov
+Arvo Vilkko,2,3,White,Leo Saarinen
+Arvo Vilkko,3,3,White,Leevi Suvensalmi
+Arvo Vilkko,4,2,White,Einojuhani Kostiainen
+Arvo Vilkko,5,1,Black,Kristian Blomstedt
+Arvo Vilkko,6,4,White,Jesse Salmela
+
+Daniil Grigoriev,1,2,White,Riccardo Bettinelli
+Daniil Grigoriev,2,8,Black,Matus Slabej
+Daniil Grigoriev,3,7,Black,Jesse Salmela
+Daniil Grigoriev,4,11,Black,Gábor Hegedűs
+Daniil Grigoriev,5,2,White,Kalle Laukkanen
+Daniil Grigoriev,6,7,White,Simone Petitti
+
+Edoardo Giraudo,1,6,White,Stefan Sivovol
+Edoardo Giraudo,2,9,Black,Alessio Pagnoncelli
+Edoardo Giraudo,3,6,White,Margherita Maggio
+Edoardo Giraudo,4,8,White,Paul Mandard
+Edoardo Giraudo,5,10,White,Andrei Diaconeasa
+Edoardo Giraudo,6,10,Black,Antonio Oliva
+
+Einojuhani Kostiainen,1,1,Black,Simone Petitti
+Einojuhani Kostiainen,2,5,White,Jesse Salmela
+Einojuhani Kostiainen,3,10,White,Kristian Blomstedt
+Einojuhani Kostiainen,4,2,Black,Arvo Vilkko
+Einojuhani Kostiainen,5,12,White,Vlad Protassov
+Einojuhani Kostiainen,6,9,Black,Leevi Suvensalmi
+
+Esteban Carrasquilla Grisales,1,11,White,Rasmus Riikonen
+Esteban Carrasquilla Grisales,2,11,White,Minh Nguyen
+Esteban Carrasquilla Grisales,3,1,White,Antonio Oliva
+Esteban Carrasquilla Grisales,4,1,White,Stefan Sivovol
+Esteban Carrasquilla Grisales,5,13,White,Matus Slabej
+Esteban Carrasquilla Grisales,6,3,Black,Linus Fiedler
+
+Gábor Hegedűs,1,8,White,Minh Nguyen
+Gábor Hegedűs,2,6,Black,Rasmus Riikonen
+Gábor Hegedűs,3,13,White,Andrea Laisa
+Gábor Hegedűs,4,11,White,Daniil Grigoriev
+Gábor Hegedűs,5,9,Black,Stefan Sivovol
+Gábor Hegedűs,6,8,Black,Matus Slabej
+
+Jesse Salmela,1,5,White,Kristian Blomstedt
+Jesse Salmela,2,5,Black,Einojuhani Kostiainen
+Jesse Salmela,3,7,White,Daniil Grigoriev
+Jesse Salmela,4,13,White,Vlad Protassov
+Jesse Salmela,5,6,Black,Leevi Suvensalmi
+Jesse Salmela,6,4,Black,Arvo Vilkko
+
+Kalle Laukkanen,1,3,White,Miron Afrosin
+Kalle Laukkanen,2,4,Black,Riccardo Bettinelli
+Kalle Laukkanen,3,12,Black,Simone Petitti
+Kalle Laukkanen,4,4,White,Andrea Laisa
+Kalle Laukkanen,5,2,Black,Daniil Grigoriev
+Kalle Laukkanen,6,13,White,Leo Saarinen
+
+Kristian Blomstedt,1,5,Black,Jesse Salmela
+Kristian Blomstedt,2,12,White,Miron Afrosin
+Kristian Blomstedt,3,10,Black,Einojuhani Kostiainen
+Kristian Blomstedt,4,9,Black,Leevi Suvensalmi
+Kristian Blomstedt,5,1,White,Arvo Vilkko
+Kristian Blomstedt,6,5,Black,Vlad Protassov
+
+Leevi Suvensalmi,1,9,Black,Leo Saarinen
+Leevi Suvensalmi,2,2,Black,Vlad Protassov
+Leevi Suvensalmi,3,3,Black,Arvo Vilkko
+Leevi Suvensalmi,4,9,White,Kristian Blomstedt
+Leevi Suvensalmi,5,6,White,Jesse Salmela
+Leevi Suvensalmi,6,9,White,Einojuhani Kostiainen
+
+Leo Saarinen,1,9,White,Leevi Suvensalmi
+Leo Saarinen,2,3,Black,Arvo Vilkko
+Leo Saarinen,3,9,White,Vlad Protassov
+Leo Saarinen,4,3,White,Miron Afrosin
+Leo Saarinen,5,4,Black,Riccardo Bettinelli
+Leo Saarinen,6,13,Black,Kalle Laukkanen
+
+Linus Fiedler,1,12,Black,Andrei Diaconeasa
+Linus Fiedler,2,13,White,Paul Mandard
+Linus Fiedler,3,8,Black,Rasmus Riikonen
+Linus Fiedler,4,10,White,Minh Nguyen
+Linus Fiedler,5,3,White,Andrea Laisa
+Linus Fiedler,6,3,White,Esteban Carrasquilla Grisales
+
+Margherita Maggio,1,4,Black,Alessio Pagnoncelli
+Margherita Maggio,2,7,White,Stefan Sivovol
+Margherita Maggio,3,6,Black,Edoardo Giraudo
+Margherita Maggio,4,5,Black,Antonio Oliva
+Margherita Maggio,5,8,Black,Paul Mandard
+Margherita Maggio,6,6,Black,Andrei Diaconeasa
+
+Matus Slabej,1,7,White,Andrea Laisa
+Matus Slabej,2,8,White,Daniil Grigoriev
+Matus Slabej,3,2,White,Minh Nguyen
+Matus Slabej,4,12,White,Rasmus Riikonen
+Matus Slabej,5,13,Black,Esteban Carrasquilla Grisales
+Matus Slabej,6,8,White,Gábor Hegedűs
+
+Minh Nguyen,1,8,Black,Gábor Hegedűs
+Minh Nguyen,2,11,Black,Esteban Carrasquilla Grisales
+Minh Nguyen,3,2,Black,Matus Slabej
+Minh Nguyen,4,10,Black,Linus Fiedler
+Minh Nguyen,5,11,Black,Rasmus Riikonen
+Minh Nguyen,6,11,White,Stefan Sivovol
+
+Miron Afrosin,1,3,Black,Kalle Laukkanen
+Miron Afrosin,2,12,Black,Kristian Blomstedt
+Miron Afrosin,3,11,Black,Riccardo Bettinelli
+Miron Afrosin,4,3,Black,Leo Saarinen
+Miron Afrosin,5,7,White,Simone Petitti
+Miron Afrosin,6,12,Black,Andrea Laisa
+
+Paul Mandard,1,10,White,Antonio Oliva
+Paul Mandard,2,13,Black,Linus Fiedler
+Paul Mandard,3,4,Black,Andrei Diaconeasa
+Paul Mandard,4,8,Black,Edoardo Giraudo
+Paul Mandard,5,8,White,Margherita Maggio
+Paul Mandard,6,1,Black,Alessio Pagnoncelli
+
+Rasmus Riikonen,1,11,Black,Esteban Carrasquilla Grisales
+Rasmus Riikonen,2,6,White,Gábor Hegedűs
+Rasmus Riikonen,3,8,White,Linus Fiedler
+Rasmus Riikonen,4,12,Black,Matus Slabej
+Rasmus Riikonen,5,11,White,Minh Nguyen
+Rasmus Riikonen,6,2,White,Riccardo Bettinelli
+
+Riccardo Bettinelli,1,2,Black,Daniil Grigoriev
+Riccardo Bettinelli,2,4,White,Kalle Laukkanen
+Riccardo Bettinelli,3,11,White,Miron Afrosin
+Riccardo Bettinelli,4,7,Black,Simone Petitti
+Riccardo Bettinelli,5,4,White,Leo Saarinen
+Riccardo Bettinelli,6,2,Black,Rasmus Riikonen
+
+Simone Petitti,1,1,White,Einojuhani Kostiainen
+Simone Petitti,2,1,White,Andrea Laisa
+Simone Petitti,3,12,White,Kalle Laukkanen
+Simone Petitti,4,7,White,Riccardo Bettinelli
+Simone Petitti,5,7,Black,Miron Afrosin
+Simone Petitti,6,7,Black,Daniil Grigoriev
+
+Stefan Sivovol,1,6,Black,Edoardo Giraudo
+Stefan Sivovol,2,7,Black,Margherita Maggio
+Stefan Sivovol,3,5,White,Alessio Pagnoncelli
+Stefan Sivovol,4,1,Black,Esteban Carrasquilla Grisales
+Stefan Sivovol,5,9,White,Gábor Hegedűs
+Stefan Sivovol,6,11,Black,Minh Nguyen
+
+Vlad Protassov,1,13,White,Arvo Vilkko
+Vlad Protassov,2,2,White,Leevi Suvensalmi
+Vlad Protassov,3,9,Black,Leo Saarinen
+Vlad Protassov,4,13,Black,Jesse Salmela
+Vlad Protassov,5,12,Black,Einojuhani Kostiainen
+Vlad Protassov,6,5,White,Kristian Blomstedt
+

@@ -1,8 +1,8 @@
 import csv
+import random
 import networkx as nx
 
 def generate_schedule(participants, ratings, matches, tables):
-    # We add a unique 'id' to each player
     players = []
     for i in range(len(participants)):
         players.append({
@@ -28,13 +28,9 @@ def generate_schedule(participants, ratings, matches, tables):
                 p1 = players[i]
                 p2 = players[j]
                 
-                # Strict no-rematch rule per stage
                 if p2["id"] not in p1["played"]:
-                    # Match players with similar ratings (Elos in Stage 1, Points in Stage 2)
-                    # Square the rating difference to heavily penalize massive skill gaps
+                    # Square the rating difference to penalize massive skill gaps
                     rating_score = 10000000 - ((p1["rating"] - p2["rating"]) ** 2)
-
-                    # Increase the game penalty to match the new scale (100 million)
                     games_played_penalty = (len(p1["played"]) + len(p2["played"])) * 100000000
                     weight = rating_score - games_played_penalty
                     G.add_edge(p1["id"], p2["id"], weight=weight)
@@ -61,10 +57,14 @@ def generate_schedule(participants, ratings, matches, tables):
                 break 
                 
             if p1["name"] != "Bye" and p2["name"] != "Bye":
+                # Randomly assign pieces for this table
+                colors = ["White", "Black"]
+                random.shuffle(colors)
+                
                 round_matches.append({
                     "table": table_count,
-                    "p1": p1["name"], "p1_rating": p1["rating"],
-                    "p2": p2["name"], "p2_rating": p2["rating"]
+                    "p1": p1["name"], "p1_rating": p1["rating"], "p1_color": colors[0],
+                    "p2": p2["name"], "p2_rating": p2["rating"], "p2_color": colors[1]
                 })
                 table_count += 1
             
@@ -84,7 +84,6 @@ def generate_schedule(participants, ratings, matches, tables):
             "sitting_out": sitting_out
         })
 
-    # Summary data
     players.sort(key=lambda x: -x['rating'])
     summary = [{"name": p["name"], "games": len(p["played"])} for p in players if p["name"] != "Bye"]
 

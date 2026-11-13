@@ -1,0 +1,91 @@
+﻿Round,Table,Player 1,P1 Color,P1 Elo,Player 2,P2 Color,P2 Elo
+--- ROUND 1 ---,,,,,,,
+1,1,Simone Petitti,White,1300,Einojuhani Kostiainen,Black,1600
+1,2,Riccardo Bettinelli,Black,1300,Daniil Grigoriev,White,1300
+1,3,Miron Afrosin,Black,1300,Kalle Laukkanen,White,1300
+1,4,Margherita Maggio,Black,400,Alessio Pagnoncelli,White,400
+1,5,Kristian Blomstedt,Black,1600,Jesse Salmela,White,1600
+1,6,Stefan Sivovol,Black,600,Edoardo Giraudo,White,400
+1,7,Andrea Laisa,Black,1300,Matus Slabej,White,1000
+1,8,Minh Nguyen,Black,1000,Gábor Hegedűs,White,1000
+1,9,Leo Saarinen,White,1600,Leevi Suvensalmi,Black,1800
+1,10,Paul Mandard,White,600,Antonio Oliva,Black,600
+1,11,Rasmus Riikonen,Black,1000,Esteban Carrasquilla Grisales,White,1000
+1,12,Andrei Diaconeasa,White,600,Linus Fiedler,Black,1000
+1,13,Vlad Protassov,White,1800,Arvo Vilkko,Black,1800
+
+--- ROUND 2 ---,,,,,,,
+2,1,Simone Petitti,White,1300,Andrea Laisa,Black,1300
+2,2,Vlad Protassov,White,1800,Leevi Suvensalmi,Black,1800
+2,3,Leo Saarinen,Black,1600,Arvo Vilkko,White,1800
+2,4,Riccardo Bettinelli,White,1300,Kalle Laukkanen,Black,1300
+2,5,Einojuhani Kostiainen,White,1600,Jesse Salmela,Black,1600
+2,6,Rasmus Riikonen,White,1000,Gábor Hegedűs,Black,1000
+2,7,Stefan Sivovol,Black,600,Margherita Maggio,White,400
+2,8,Daniil Grigoriev,Black,1300,Matus Slabej,White,1000
+2,9,Alessio Pagnoncelli,White,400,Edoardo Giraudo,Black,400
+2,10,Andrei Diaconeasa,White,600,Antonio Oliva,Black,600
+2,11,Minh Nguyen,Black,1000,Esteban Carrasquilla Grisales,White,1000
+2,12,Miron Afrosin,Black,1300,Kristian Blomstedt,White,1600
+2,13,Paul Mandard,Black,600,Linus Fiedler,White,1000
+
+--- ROUND 3 ---,,,,,,,
+3,1,Antonio Oliva,Black,600,Esteban Carrasquilla Grisales,White,1000
+3,2,Minh Nguyen,Black,1000,Matus Slabej,White,1000
+3,3,Leevi Suvensalmi,Black,1800,Arvo Vilkko,White,1800
+3,4,Andrei Diaconeasa,White,600,Paul Mandard,Black,600
+3,5,Stefan Sivovol,White,600,Alessio Pagnoncelli,Black,400
+3,6,Margherita Maggio,Black,400,Edoardo Giraudo,White,400
+3,7,Daniil Grigoriev,Black,1300,Jesse Salmela,White,1600
+3,8,Rasmus Riikonen,White,1000,Linus Fiedler,Black,1000
+3,9,Leo Saarinen,White,1600,Vlad Protassov,Black,1800
+3,10,Einojuhani Kostiainen,White,1600,Kristian Blomstedt,Black,1600
+3,11,Riccardo Bettinelli,White,1300,Miron Afrosin,Black,1300
+3,12,Simone Petitti,White,1300,Kalle Laukkanen,Black,1300
+3,13,Andrea Laisa,Black,1300,Gábor Hegedűs,White,1000
+
+--- ROUND 4 ---,,,,,,,
+4,1,Stefan Sivovol,Black,600,Esteban Carrasquilla Grisales,White,1000
+4,2,Einojuhani Kostiainen,Black,1600,Arvo Vilkko,White,1800
+4,3,Miron Afrosin,Black,1300,Leo Saarinen,White,1600
+4,4,Andrea Laisa,Black,1300,Kalle Laukkanen,White,1300
+4,5,Margherita Maggio,Black,400,Antonio Oliva,White,600
+4,6,Andrei Diaconeasa,White,600,Alessio Pagnoncelli,Black,400
+4,7,Simone Petitti,White,1300,Riccardo Bettinelli,Black,1300
+4,8,Paul Mandard,Black,600,Edoardo Giraudo,White,400
+4,9,Leevi Suvensalmi,White,1800,Kristian Blomstedt,Black,1600
+4,10,Minh Nguyen,Black,1000,Linus Fiedler,White,1000
+4,11,Daniil Grigoriev,Black,1300,Gábor Hegedűs,White,1000
+4,12,Rasmus Riikonen,Black,1000,Matus Slabej,White,1000
+4,13,Vlad Protassov,Black,1800,Jesse Salmela,White,1600
+
+--- ROUND 5 ---,,,,,,,
+5,1,Kristian Blomstedt,White,1600,Arvo Vilkko,Black,1800
+5,2,Daniil Grigoriev,White,1300,Kalle Laukkanen,Black,1300
+5,3,Andrea Laisa,Black,1300,Linus Fiedler,White,1000
+5,4,Riccardo Bettinelli,White,1300,Leo Saarinen,Black,1600
+5,5,Alessio Pagnoncelli,Black,400,Antonio Oliva,White,600
+5,6,Leevi Suvensalmi,White,1800,Jesse Salmela,Black,1600
+5,7,Simone Petitti,Black,1300,Miron Afrosin,White,1300
+5,8,Paul Mandard,White,600,Margherita Maggio,Black,400
+5,9,Stefan Sivovol,White,600,Gábor Hegedűs,Black,1000
+5,10,Andrei Diaconeasa,Black,600,Edoardo Giraudo,White,400
+5,11,Rasmus Riikonen,White,1000,Minh Nguyen,Black,1000
+5,12,Einojuhani Kostiainen,White,1600,Vlad Protassov,Black,1800
+5,13,Matus Slabej,Black,1000,Esteban Carrasquilla Grisales,White,1000
+
+--- ROUND 6 ---,,,,,,,
+6,1,Alessio Pagnoncelli,White,400,Paul Mandard,Black,600
+6,2,Riccardo Bettinelli,Black,1300,Rasmus Riikonen,White,1000
+6,3,Linus Fiedler,White,1000,Esteban Carrasquilla Grisales,Black,1000
+6,4,Jesse Salmela,Black,1600,Arvo Vilkko,White,1800
+6,5,Vlad Protassov,White,1800,Kristian Blomstedt,Black,1600
+6,6,Andrei Diaconeasa,White,600,Margherita Maggio,Black,400
+6,7,Daniil Grigoriev,White,1300,Simone Petitti,Black,1300
+6,8,Matus Slabej,White,1000,Gábor Hegedűs,Black,1000
+6,9,Einojuhani Kostiainen,Black,1600,Leevi Suvensalmi,White,1800
+6,10,Antonio Oliva,White,600,Edoardo Giraudo,Black,400
+6,11,Stefan Sivovol,Black,600,Minh Nguyen,White,1000
+6,12,Andrea Laisa,White,1300,Miron Afrosin,Black,1300
+6,13,Leo Saarinen,Black,1600,Kalle Laukkanen,White,1300
+
